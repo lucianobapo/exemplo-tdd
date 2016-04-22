@@ -1,0 +1,19 @@
+{
+    "name": "erpnet/exemplo-tdd",
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luciano Porto",
+            "email": "luciano.bapo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ErpNET\\App\\": "src/"
+        }
+    }
+}
